@@ -1,0 +1,9 @@
+name: ankit
+on:
+  workflow_dispatch:
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "walekum aslam"
